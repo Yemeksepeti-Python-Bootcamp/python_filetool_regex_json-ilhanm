@@ -1,7 +1,7 @@
 import json
 from os import sep
 from user import User
-
+ 
 class DataParser:
     def __init__(self,filename):
         self.filename=filename
