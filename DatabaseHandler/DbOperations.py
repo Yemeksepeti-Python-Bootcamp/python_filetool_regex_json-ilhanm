@@ -1,9 +1,7 @@
-
-
 from datetime import datetime
 import sqlite3
-from DataParser import DataParser
-from user import User
+from FileHandler.DataParser import DataParser
+from Models.user import User
 class DbOperations():
     def __init__(self,dbpath: str) -> None:
         self.dbpath=dbpath

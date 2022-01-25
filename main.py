@@ -1,5 +1,5 @@
-from DbOperations import DbOperations
-from DataParser import DataParser
+from DatabaseHandler.DbOperations import DbOperations
+from FileHandler.DataParser import DataParser
 from argparse import ArgumentParser
 argparser=ArgumentParser()
 argparser.add_argument("--json_path", "--file", type=str, required=True)
